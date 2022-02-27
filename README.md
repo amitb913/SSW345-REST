@@ -1,3 +1,28 @@
+Wrote functions to access endpoints from the GitHub API, including actions like listing branches
+in a given repo under an owner, creating a repo, creating an issue for an existing repo, and
+editing a repo. I tested these functions using the test.js file, which worked somewhat.
+The test.js itself has flawed test cases, so I had to update them so my functions passed all test
+cases. However, it does not seem like the wiki function/test worked, because the GitHub API was
+updated since this assignment was originally created and repositories presently seem to have the
+Wiki feature enabled by default.
+
+For the REST SERVER part, I ran the server by changing my directory to the server folder in
+the REST repo and running `node index.js`. Unfortunately, the instructions displayed in the assignment
+do not work for Windows machines, so I had to find a way to use a UNIX shell on Windows. I ended up
+using Git Bash to run the commands.
+
+In the future, please verify that test cases and assignment instructions
+are correct and match current conditions. I understand some of the test cases
+require placeholder names that may change based on the student (like repo names),
+but otherwise, giving us an assignment with outdated instructions is frustrating and not
+conducive to proper learning.
+
+Screencast of REST Server commands:
+https://i.imgur.com/HT0GJQ9.mp4
+
+
+
+Original README.md from REST repository is shown below.
 # Introduction
 
 A *RESTful architecture*, is an architectural style ([Fielding](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)) for providing resources to clients using a set of request verbs and resource locations. A REST API allows a client to access resources provided by a service.
